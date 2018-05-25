@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="VideoBlog">
+
+<listeners>
+	<listener class-name="com.slokam.videoblog.commons.listeners.CustomListener"></listener>
+</listeners>
+
+	<test name="Screenshot_Test">
+		<classes>
+			<class name="com.slokam.videoblog.samples.ScreenShotFailedTest"></class>
+		</classes>
+	</test>
+</suite>
